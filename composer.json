@@ -1,0 +1,25 @@
+{
+  "name": "aludvigsson/youtube-caption-fetcher",
+  "description": "A PHP package to fetch captions from YouTube videos",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Ludvigsson",
+      "email": "andreas@1up.se"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aludvigsson\\YouTubeCaptionFetcher\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
+}
